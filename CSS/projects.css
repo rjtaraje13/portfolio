@@ -1,0 +1,153 @@
+.titleproj
+{
+  font-family: Arial;
+  font-style: normal;
+  width: 400px;
+  line-height: 55px;
+  font-family: "Rubik Mono One", monospace;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  height: 55px;
+}
+.div1>button
+{
+  color: white;
+  background-color: transparent;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 5px;
+  cursor: pointer;  
+  transition: opacity 0.15s;
+  font-weight: bold;
+  
+}
+.rj
+{
+  background-color: rgb(255, 95, 31);
+  padding: 10px;
+  margin-left: 5px;
+  
+  font-style: normal;
+  font-family: Major Mono Display;
+}
+
+.rj:hover
+{
+  background-color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  background-color: transparent;
+}
+
+.div1>button:hover
+{
+  background-color: white;
+  color: black;
+}
+
+.headproj
+{
+  border: black;
+  background-color: black;
+}
+body
+{
+  background-color: black;
+}
+
+.navbar2
+{
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 140px;
+}
+.div1
+{
+  
+  background-color:transparent;
+  margin-top: 30px;
+}
+
+h1
+{
+  background-color:rgba(0, 0, 0, 70%);
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #000000,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  border-color: white;
+  height: 50px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+hr
+{
+    height: 5px;
+}
+body {
+  position: relative;
+  margin: 0;
+  
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_640.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px); /* Adjust the blur intensity as needed */
+  z-index: -1; /* Send the blurred background behind other content */
+}
+
+.blur-content {
+  position: relative;
+  z-index: 1; /* Keep content above the blurred background */
+  /* Additional styling for your content */
+}
+
+.bgproj
+{
+  background-color: transparent;
+}
+
+.text1
+{
+  
+  margin-top: -10px;
+  border-radius: 25px;
+}
+
+.text2
+{
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+body
+{
+  height: 1400px;
+}
+

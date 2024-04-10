@@ -1,0 +1,22 @@
+/* Define keyframes for custom animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply animation to the heading */
+.animated-heading {
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+/* Apply transition for letter-spacing */
+.animated-heading:hover {
+  letter-spacing: 10px; /* Adjust spacing as needed */
+  transition: letter-spacing 0.3s ease-in-out;
+}
